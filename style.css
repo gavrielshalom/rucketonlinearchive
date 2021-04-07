@@ -1,0 +1,25 @@
+body{
+    display: flexbox;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fefefe;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    list-style-position: inside;
+}
+button{
+    background: rgb(131,58,180);    
+    border: 2px solid #fefefe;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+    color: #fefefe;
+}
+button:active{
+    transform: scale(1.03);
+}
+div{
+    display: none;
+}
